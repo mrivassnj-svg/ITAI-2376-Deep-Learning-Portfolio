@@ -1,16 +1,18 @@
 # Module 16: Capstone Project & Portfolio Finalization
-**SLOs Addressed:** All (1–6)
+**SLOs Addressed:** All (1-6)
 
 ---
 
 ## Overview & Objectives
-- Consolidate all semester deliverables into a production-grade academic repository.
-- Deploy an end-to-end applied deep learning capstone application with interactive UI.
+- Consolidate all semester deliverables into a production-grade academic and technical portfolio.
+- Deliver an end-to-end applied deep learning capstone project solving a real-world problem.
+- Conduct technical presentation, defense, and application demonstration.
+- Publish verified source code, architecture documentation, model weights, and technical reports.
 
 ---
 
-## Capstone Deliverables
-- **Final Report**: `capstone_final_report.pdf`
-- **Slide Deck**: `presentation_slides.pdf`
-- **Interactive Web Demo**: `demo/app.py`
-- **Deployment Manifest**: `demo/Dockerfile`
+## Project Structure
+- Capstone Technical Report
+- Presentation Slides
+- Interactive Web Demo
+- Deployment Manifest

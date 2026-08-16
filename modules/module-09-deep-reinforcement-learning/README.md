@@ -1,14 +1,18 @@
-# Module 09: Deep Reinforcement Learning & Applications
+# Module 09: Deep Reinforcement Learning and Applications
 **SLOs Addressed:** 1, 2, 4
 
 ---
 
 ## Overview & Objectives
-- Formulate decision-making as Markov Decision Processes (MDPs).
-- Implement Deep Q-Networks (DQN), Policy Gradients (REINFORCE), and Advantage Actor-Critic (A2C/PPO).
+- Formulate decision-making as Markov Decision Processes (MDPs): (S, A, P, R, gamma).
+- Implement value-based algorithms: Deep Q-Networks (DQN) with experience replay.
+- Implement policy-based algorithms: Policy Gradients (REINFORCE) and Advantage Actor-Critic (A2C).
+- Deploy continuous control algorithms: Proximal Policy Optimization (PPO).
 
 ---
 
-## Lab Deliverables
-- **Notebook**: `lab09_dqn_actor_critic_gym.ipynb`
-- **Objective**: Train a DQN agent on `CartPole-v1` and an Actor-Critic agent on `LunarLander-v2`.
+## Key Topics
+- Bellman Optimality Equation.
+- Target network decoupling and Prioritized Experience Replay (PER).
+- Generalized Advantage Estimation (GAE) and clipped surrogate objectives in PPO.
+- Simulation environment interfacing via Gymnasium.

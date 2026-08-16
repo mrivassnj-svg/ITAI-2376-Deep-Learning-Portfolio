@@ -5,11 +5,14 @@
 
 ## Overview & Objectives
 - Construct natural language preprocessing and tokenization pipelines.
-- Implement distributed word representations (Word2Vec, GloVe).
-- Build gated recurrent architectures (LSTM, GRU) to model temporal sequences.
+- Implement distributed word representations (Word2Vec, GloVe, FastText).
+- Understand recurrent hidden state transitions and Backpropagation Through Time (BPTT).
+- Build gated recurrent architectures (LSTM, GRU) to model long-range temporal dependencies.
 
 ---
 
-## Lab Deliverables
-- **Notebook**: `lab04_sentiment_lstm_timeseries.ipynb`
-- **Objective**: Train a Bi-directional LSTM for sentiment analysis and time-series prediction.
+## Key Topics
+- Tokenization, vocabulary generation, padding, and sequence masking.
+- Vanilla RNNs and gradient decay over long sequences.
+- LSTM components: Forget gate, Input gate, Cell candidate, Output gate.
+- Gated Recurrent Units (GRU): Update gate and Reset gate.

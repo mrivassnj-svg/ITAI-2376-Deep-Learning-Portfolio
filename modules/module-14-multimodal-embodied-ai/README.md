@@ -1,14 +1,18 @@
-# Module 14: Multimodal Deep Learning & Embodied AI
+# Module 14: Multimodal Deep Learning, Embodied AI & Future Trends
 **SLOs Addressed:** 2, 4, 6
 
 ---
 
 ## Overview & Objectives
 - Formulate multimodal alignment, cross-attention fusion, and representation learning.
-- Implement Vision-Language models (CLIP, VQA, image captioning).
+- Implement Vision-Language models: CLIP, BLIP, LLaVA.
+- Build image captioning and Visual Question Answering (VQA) pipelines.
+- Understand Embodied AI fundamentals: Sensorimotor control, navigation, spatial affordances.
 
 ---
 
-## Lab Deliverables
-- **Notebook**: `lab14_vqa_multimodal_transformer.ipynb`
-- **Objective**: Fine-tune a Vision-Language VQA model to answer queries on image inputs.
+## Key Topics
+- Contrastive language-image pre-training (CLIP dual encoder loss).
+- Multimodal projection layers (Linear Projection vs. Q-Former).
+- Cross-attention fusion between image visual tokens and text query embeddings.
+- Embodied agents: Sensor-actuator interaction and robotic manipulation policies.

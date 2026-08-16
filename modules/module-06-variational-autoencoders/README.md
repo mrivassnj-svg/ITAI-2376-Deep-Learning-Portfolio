@@ -4,12 +4,15 @@
 ---
 
 ## Overview & Objectives
-- Understand probabilistic latent variable modeling and the Evidence Lower Bound (ELBO).
-- Implement the Reparameterization Trick for backpropagation through stochastic layers.
-- Perform latent manifold traversal and synthetic image reconstruction.
+- Understand probabilistic latent variable modeling and approximate inference.
+- Derive the Evidence Lower Bound (ELBO) objective function.
+- Implement the Reparameterization Trick to permit backpropagation through stochastic nodes.
+- Perform latent space traversal, interpolation, and synthetic image reconstruction.
 
 ---
 
-## Lab Deliverables
-- **Notebook**: `lab06_vae_latent_space_mnist.ipynb`
-- **Objective**: Implement a Convolutional VAE on MNIST with 2D latent space mapping.
+## Key Topics
+- Encoder parameterization: Mean vector and log-variance vector.
+- Reparameterization: z = mu + sigma * epsilon.
+- Loss components: Reconstruction Loss (BCE/MSE) + Kullback-Leibler (KL) Divergence regularization.
+- Latent manifold vector arithmetic and conditional generation.

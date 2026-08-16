@@ -13,21 +13,26 @@
 
 ## Module Overview
 
-| Module | Title | Key Deliverable | Status |
-| :---: | :--- | :--- | :---: |
-| **01** | Introduction to Deep Learning & Environment | `lab01_mnist_binary_classification.ipynb` | Ready |
-| **02** | Optimization & Training Deep Networks | `lab02_fashion_mnist_optimization.ipynb` | Ready |
-| **03** | CNNs for Computer Vision & Transfer Learning | `lab03_transfer_learning_vgg_resnet.ipynb` | Ready |
-| **04** | Sequence Modeling & NLP with RNNs/LSTMs | `lab04_sentiment_lstm_timeseries.ipynb` | Ready |
-| **05** | Transformers, Attention Mechanisms & ViTs | `lab05_bert_text_classification.ipynb` | Ready |
-| **06** | Variational Autoencoders (VAEs) | `lab06_vae_latent_space_mnist.ipynb` | Ready |
-| **07** | Generative Adversarial Networks (GANs) | `lab07_dcgan_celeba_generation.ipynb` | Ready |
-| **08** | Diffusion Models (DDPMs) | `lab08_ddpm_image_synthesis.ipynb` | Ready |
-| **09** | Deep Reinforcement Learning (DQN / PPO) | `lab09_dqn_actor_critic_gym.ipynb` | Ready |
-| **10** | Reasoning Models & RAG Systems | `lab10_rag_vector_pipeline.ipynb` | Ready |
-| **11** | Agent Planning & Orchestration | `lab11_task_decomposition_planner.ipynb` | Ready |
-| **12** | LangChain & Custom Tool Integration | `lab12_langchain_custom_tools_agent.ipynb` | Ready |
-| **13** | Advanced Multi-Agent Systems | `lab13_hierarchical_multi_agent_network.ipynb` | Ready |
-| **14** | Multimodal Deep Learning & Embodied AI | `lab14_vqa_multimodal_transformer.ipynb` | Ready |
-| **15** | Responsible AI, Ethics & Model Explainability | `lab15_model_bias_audit_explainability.ipynb` | Ready |
-| **16** | Capstone Project & Portfolio Finalization | `capstone_final_report.pdf`, `demo/` | Ready |
+| Module | Title | Status |
+| :---: | :--- | :---: |
+| **01** | Introduction to Deep Learning & Applications | In Progress |
+| **02** | Neural Network Optimization & Training Deep Networks | Active (`ITAI2376_L02.ipynb`) |
+| **03** | Convolutional Neural Networks (CNNs) for Computer Vision | Planned |
+| **04** | Sequence Modeling and NLP with RNNs | Planned |
+| **05** | Transformers and Attention Mechanisms | Planned |
+| **06** | Variational Autoencoders (VAEs) | Planned |
+| **07** | Generative Adversarial Networks (GANs) | Planned |
+| **08** | Diffusion Models and Advanced Generative Techniques | Planned |
+| **09** | Deep Reinforcement Learning and Applications | Planned |
+| **10** | Reasoning Models and RAG | Planned |
+| **11** | Agent Planning and Orchestration | Planned |
+| **12** | LangChain and Agent Architectures | Planned |
+| **13** | Advanced Agent Systems and Applications | Planned |
+| **14** | Multimodal Deep Learning, Embodied AI & Future Trends | Planned |
+| **15** | Course Review, Responsible AI & Ethics | Planned |
+| **16** | Capstone Project & Portfolio Finalization | Planned |
+
+---
+
+## Academic Integrity & AI Policy
+All work complies with the Houston Community College Academic Honesty Policy and Course AI Guidelines.

@@ -1,14 +1,18 @@
-# Module 13: Advanced Multi-Agent Systems & Applications
+# Module 13: Advanced Agent Systems and Applications
 **SLOs Addressed:** 2, 4, 5, 6
 
 ---
 
 ## Overview & Objectives
-- Architect multi-agent collaborative networks (Planner, Coder, Critic, Verifier).
-- Implement inter-agent communication protocols and human-in-the-loop workflows.
+- Architect multi-agent collaborative societies: Planner, Executor, Critic, Verifier.
+- Implement agent-to-agent communication protocols and consensus algorithms.
+- Deploy human-in-the-loop (HITL) authorization and review workflows.
+- Benchmark and evaluate multi-agent performance, latency, and resource usage.
 
 ---
 
-## Lab Deliverables
-- **Notebook**: `lab13_hierarchical_multi_agent_network.ipynb`
-- **Objective**: Build a 3-agent software engineering squad that generates and tests code.
+## Key Topics
+- Role-playing agent frameworks (CrewAI, AutoGen, LangGraph).
+- Hierarchical vs. decentralized agent communication topologies.
+- Emergent behaviors, deadlock resolution, and infinite loop prevention.
+- Production deployment: Containerization, telemetry, and cost tracking.

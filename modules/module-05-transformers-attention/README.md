@@ -5,12 +5,14 @@
 
 ## Overview & Objectives
 - Formulate Scaled Dot-Product Attention and Multi-Head Attention mechanisms.
-- Implement Transformer encoder-decoder blocks, positional encodings, and Vision Transformers (ViTs).
-- Fine-tune pre-trained Hugging Face Transformer models.
+- Implement the complete Transformer encoder-decoder architecture.
+- Explore modern transformer derivatives: BERT, GPT, Mamba (State Space Models), and Vision Transformers (ViTs).
+- Fine-tune pre-trained Transformer models on downstream tasks.
 
 ---
 
-## Lab Deliverables
-- **Notebooks**: 
-  - `lab05_bert_text_classification.ipynb`
-  - `lab05_vision_transformer_cifar.ipynb`
+## Key Topics
+- Scaled Dot-Product Attention: Query, Key, Value mappings.
+- Positional encodings: Sinusoidal and Rotary Positional Encodings (RoPE).
+- Patch projection and classification tokens in Vision Transformers (ViTs).
+- State Space Models (SSMs) and selective structured state space transitions.

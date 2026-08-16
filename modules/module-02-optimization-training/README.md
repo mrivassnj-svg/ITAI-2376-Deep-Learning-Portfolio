@@ -11,6 +11,14 @@
 
 ---
 
-## Lab Deliverables
-- **Notebook**: `lab02_fashion_mnist_optimization.ipynb`
-- **Objective**: Train a deep feedforward network on Fashion-MNIST; benchmark Adam vs. RMSprop vs. SGD.
+## Key Topics
+- First-order optimizers: SGD, SGD with Momentum, Nesterov, AdaGrad, RMSprop, Adam.
+- Regularization: L1/L2 Weight Decay, Dropout, Spatial Dropout.
+- Normalization: Batch Normalization, Layer Normalization.
+- Training Callbacks: Early Stopping, Model Checkpointing, Learning Rate Reducers.
+- Deep network inspection and parameter distribution profiling.
+
+---
+
+## Active Coursework
+- Notebook: `notebooks/ITAI2376_L02.ipynb`

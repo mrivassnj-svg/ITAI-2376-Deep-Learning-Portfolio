@@ -4,11 +4,15 @@
 ---
 
 ## Overview & Objectives
-- Implement autonomous agent planning: Task decomposition, sub-goal generation, and replanning.
-- Construct structured agent memory (working buffer + episodic vector retrieval).
+- Implement autonomous agent planning: Task decomposition, goal discovery, and replanning.
+- Construct structured agent memory: Working memory, short-term buffer, long-term episodic retrieval.
+- Build state machine and behavior tree controllers for deterministic agent execution.
+- Implement error recovery, reflection mechanisms, and verification routines.
 
 ---
 
-## Lab Deliverables
-- **Notebook**: `lab11_task_decomposition_planner.ipynb`
-- **Objective**: Implement an autonomous research planner agent with verification loops.
+## Key Topics
+- Plan-and-Solve strategies: Sub-goal generation and dependency resolution graphs.
+- Reflexion: Self-evaluative verbal reinforcement learning and error memory accumulation.
+- Hierarchical task planning and dynamic priority queue management.
+- Guardrails, execution timeouts, and hallucination containment.

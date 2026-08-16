@@ -4,12 +4,15 @@
 ---
 
 ## Overview & Objectives
-- Analyze the minimax two-player game between Generator (G) and Discriminator (D).
-- Implement Deep Convolutional GANs (DCGANs) and WGAN-GP.
-- Mitigate mode collapse and training instability.
+- Analyze the minimax two-player game formulation between Generator (G) and Discriminator (D).
+- Implement Deep Convolutional GANs (DCGANs) utilizing strided and transposed convolutions.
+- Address adversarial training failure modes: Mode Collapse, vanishing gradients, non-convergence.
+- Evaluate advanced GAN variants (Wasserstein GAN with Gradient Penalty - WGAN-GP).
 
 ---
 
-## Lab Deliverables
-- **Notebook**: `lab07_dcgan_celeba_generation.ipynb`
-- **Objective**: Build and train a DCGAN to generate synthetic human faces on CelebA.
+## Key Topics
+- Minimax objective function dynamics.
+- Batch normalization and LeakyReLU architectural guidelines for stable DCGANs.
+- Earth Mover's (Wasserstein-1) Distance and 1-Lipschitz continuity enforcement.
+- Image-to-image translation concepts (Pix2Pix, CycleGAN).

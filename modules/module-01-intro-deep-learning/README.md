@@ -7,10 +7,12 @@
 - Define the scope of deep learning and differentiate from classical machine learning.
 - Understand the end-to-end deep learning engineering workflow.
 - Review neural network fundamentals, activation functions, and loss formulations.
-- Configure local, cloud, and Google Colab GPU-accelerated deep learning environments.
+- Configure local, cloud, and GPU-accelerated deep learning environments.
 
 ---
 
-## Lab Deliverables
-- **Notebook**: `lab01_mnist_binary_classification.ipynb`
-- **Objective**: Implement a baseline binary classification neural network on MNIST.
+## Key Topics
+- Perceptrons, Multi-Layer Perceptrons (MLPs), and forward/backward propagation.
+- Activation functions: ReLU, Leaky ReLU, Sigmoid, Softmax.
+- Loss functions: Binary Cross-Entropy, Categorical Cross-Entropy, Mean Squared Error.
+- Framework initialization: TensorFlow/Keras and PyTorch runtime configurations.
