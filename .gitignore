@@ -1,0 +1,32 @@
+# Python & Bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# Virtual Environments
+venv/
+.venv/
+env/
+
+# Large Model Weights & Data
+*.h5
+*.pt
+*.pth
+*.bin
+*.onnx
+*.safetensors
+data/
+downloads/
+
+# Logs & Temp
+*.log
+.coverage
+.pytest_cache/
+.DS_Store
+Thumbs.db
