@@ -1,0 +1,74 @@
+\documentclass[11pt, a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[margin=1in]{geometry}
+\usepackage{xcolor}
+\usepackage{fancyhdr}
+\usepackage{booktabs}
+\usepackage{microtype}
+
+\definecolor{accentcolor}{HTML}{D9381E}
+\definecolor{textdark}{HTML}{1A1D20}
+\definecolor{textmuted}{HTML}{5A626D}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\small\color{textmuted}\textbf{A02 Presentation Slides} | PyTorch vs. TensorFlow}
+\fancyhead[R]{\small\color{accentcolor}\textbf{\thepage}}
+\renewcommand{\headrulewidth}{0.6pt}
+
+\begin{document}
+
+\begin{center}
+    {\LARGE \textbf{\color{textdark}EMPIRICAL COMPARATIVE ANALYSIS}} \\[0.4em]
+    {\Large \color{accentcolor}\textbf{PyTorch vs. TensorFlow: Architectural Parity \& Runtime Realities}} \\[0.6em]
+    {\normalsize \color{textmuted}Presented by: Michael, Cherluk, Olubukola, \& Taki \\ Houston City College -- Team: DL\_FA2026\_2376\_14562}
+\end{center}
+
+\vspace{1.5em}
+
+\section*{Slide 1: Core Design Philosophies}
+\begin{itemize}
+    \item \textbf{PyTorch (Define-by-Run):} Dynamic execution graph built on-the-fly. Enables Pythonic debugging and rapid academic velocity.
+    \item \textbf{TensorFlow (Define-and-Run):} Static computation graph optimized for scale. Serves as the industry standard for robust enterprise deployment.
+\end{itemize}
+
+\section*{Slide 2: Experimental Methodology ($N=10$ Runs)}
+\begin{itemize}
+    \item \textbf{Dataset:} MNIST 28x28 grayscale images.
+    \item \textbf{Architecture:} Conv2D (32 filters, 3x3), MaxPool, Flatten, Dense (10 classes).
+    \item \textbf{Hyperparameters:} Adam optimizer ($lr=0.001$), batch size 64, trained for 3 epochs.
+    \item \textbf{JIT Compilers:} \texttt{torch.compile()} vs. TensorFlow XLA.
+\end{itemize}
+
+\section*{Slide 3: Training Runtime Performance}
+\begin{itemize}
+    \item \textbf{PyTorch (\texttt{torch.compile}):} \textbf{109.69s} mean training time ($\pm 2.86$s std dev).
+    \item \textbf{TensorFlow (XLA):} \textbf{185.23s} mean training time ($\pm 12.60$s std dev).
+\end{itemize}
+
+\section*{Slide 4: Predictive Accuracy Parity}
+\begin{itemize}
+    \item \textbf{PyTorch Accuracy:} \textbf{98.05\%} test set mean ($\pm 0.11\%$ dev).
+    \item \textbf{TensorFlow Accuracy:} \textbf{97.98\%} test set mean ($\pm 0.16\%$ dev).
+\end{itemize}
+
+\section*{Slide 5: JIT Compilation Mechanics}
+\begin{itemize}
+    \item \textbf{TorchDynamo \& Caching:} Dynamic graph evaluation with seamless fallback. Full graph support achieved without runtime interruption.
+    \item \textbf{TensorFlow XLA Decorator:} Strict static graph optimization at the C++ level. Higher initialization overhead across benchmark runs.
+\end{itemize}
+
+\section*{Slide 6: Developer Ergonomics \& Integration}
+\begin{itemize}
+    \item \textbf{PyTorch OOP Control:} Explicit module definition (\texttt{nn.Module}) and manual device allocation. Optimal velocity for algorithmic research and edge devices.
+    \item \textbf{TensorFlow Keras Abstraction:} High-level sequential APIs abstracting layer construction. Enterprise microservices and cloud scaling standard.
+\end{itemize}
+
+\section*{Slide 7: Strategic Takeaway \& Conclusion}
+\begin{itemize}
+    \item \textbf{No Universal Superiority:} Context Dictates Choice.
+    \item PyTorch excels in experimental velocity and consistent compilation runtime.
+    \item TensorFlow provides robust production pipelines for enterprise deployment.
+\end{itemize}
+
+\end{document}

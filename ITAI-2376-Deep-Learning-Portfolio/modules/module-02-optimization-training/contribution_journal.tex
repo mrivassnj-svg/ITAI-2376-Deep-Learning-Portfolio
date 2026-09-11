@@ -1,0 +1,81 @@
+\documentclass[11pt, a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[margin=1in]{geometry}
+\usepackage{xcolor}
+\usepackage{fancyhdr}
+\usepackage{booktabs}
+
+\definecolor{accentcolor}{HTML}{D9381E}
+\definecolor{textdark}{HTML}{1A1D20}
+\definecolor{textmuted}{HTML}{5A626D}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\small\color{textmuted}\textbf{A02 Contribution Journal} | ITAI 2376}
+\fancyhead[R]{\small\color{accentcolor}\textbf{\thepage}}
+\renewcommand{\headrulewidth}{0.6pt}
+
+\begin{document}
+
+\begin{center}
+    {\LARGE \textbf{\color{textdark}Mandatory Team Contribution Journal}} \\[0.5em]
+    {\large \color{accentcolor}\textbf{Assignment A02: Comparative Analysis of ML/DL Frameworks}} \\[0.3em]
+    {\normalsize \color{textmuted}Houston City College -- Fall 2026}
+\end{center}
+
+\vspace{1em}
+
+\noindent \textbf{Team Name / ID:} DL\_FA2026\_2376\_14562 \\
+\textbf{Assigned Topic:} TensorFlow vs. PyTorch \\
+\textbf{Primary Submitter:} Michael Rivas \\
+
+\vspace{1em}
+\section*{Individual Student Contributions}
+In accordance with course grading policies, team member responsibilities and verifiable contributions to Assignment A02 are detailed below:
+
+\vspace{0.5em}
+\noindent \textbf{1. Michael Rivas (Primary Submitter / System Administrator)}
+\begin{itemize}
+    \item Configured the Ubuntu Linux environment, managed dependency resolution (\texttt{pdflatex}, Python 3, Matplotlib, PyTorch, and TensorFlow libraries), and handled Git repository initialization and version control workflows.
+    \item Authored the technical sections covering background history, JIT compilation mechanics (\texttt{torch.compile()} vs XLA), system integration, and real-world edge/cloud modularity.
+    \item Assembled and formatted the final LaTeX report and compiled submission deliverables.
+\end{itemize}
+
+\vspace{0.5em}
+\noindent \textbf{2. Cherluk (PyTorch Pipeline Architect)}
+\begin{itemize}
+    \item Spearheaded the design and execution of the PyTorch benchmarking pipeline.
+    \item Implemented the Convolutional Neural Network (CNN) architecture on MNIST and integrated \texttt{torch.compile()} optimization loops.
+    \item Collected empirical training duration and convergence telemetry across multiple experimental trials.
+\end{itemize}
+
+\vspace{0.5em}
+\noindent \textbf{3. Olubukola (TensorFlow Infrastructure Lead)}
+\begin{itemize}
+    \item Developed the parallel TensorFlow model architecture utilizing Keras (\texttt{models.Sequential}) and managed data preprocessing pipelines.
+    \item Configured and tested TensorFlow XLA JIT compilation (\texttt{@tf.function(jit\_compile=True)}) to ensure structural and hyperparameter parity with PyTorch.
+    \item Contributed comparative analysis regarding enterprise deployment and serving infrastructure.
+\end{itemize}
+
+\vspace{0.5em}
+\noindent \textbf{4. Taki (Data Analysis \& Telemetry Analyst)}
+\begin{itemize}
+    \item Conducted statistical variance and standard deviation analysis across all 10 experimental runs.
+    \item Designed data visualization scripts and formatted empirical performance data into structured comparison tables.
+    \item Verified cross-platform reproducibility and presentation timing.
+\end{itemize}
+
+\vspace{2em}
+\noindent \textbf{Declaration:} We hereby confirm that all listed members actively participated in the research, empirical benchmarking, and drafting of this assignment deliverables.
+
+\vspace{1.5cm}
+\noindent \textbf{Signatures:}
+\vspace{0.8cm}
+
+\noindent 
+\begin{tabular}{ll}
+    Michael Rivas: \underline{\hspace{5cm}} & Cherluk: \underline{\hspace{5cm}} \\[1cm]
+    Olubukola: \underline{\hspace{5cm}} & Taki: \underline{\hspace{5cm}} \\
+\end{tabular}
+
+\end{document}
